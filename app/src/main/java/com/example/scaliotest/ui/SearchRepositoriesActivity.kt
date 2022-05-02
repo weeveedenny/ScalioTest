@@ -27,7 +27,7 @@ class SearchRepositoriesActivity : AppCompatActivity() {
         setContentView(view)
         supportActionBar?.hide()
 
-        // get the view model
+        // get the viewModel
         val viewModel = ViewModelProvider(this, Injection.provideViewModelFactory(owner = this))[SearchRepositoriesViewModel::class.java]
 
         // add dividers between RecyclerView's row items
@@ -87,7 +87,6 @@ class SearchRepositoriesActivity : AppCompatActivity() {
 binding.repoSearchButton.setOnClickListener {
     updateRepoListFromInput(onQueryChanged)
 }
-
 
         lifecycleScope.launch {
             uiState.map {
@@ -185,6 +184,5 @@ binding.repoSearchButton.setOnClickListener {
         emptyList.isVisible = show
         list.isVisible = !show
     }
-
 
 }
