@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="row_item_margin_vertical">12dp</dimen>
+    <dimen name="row_item_margin_horizontal">12dp</dimen>
+    <dimen name="repo_name_size">24sp</dimen>
+    <dimen name="repo_description_size">16sp</dimen>
+    <dimen name="repo_icon_size">24dp</dimen>
+    <dimen name="loading_progress_bar_size">36dp</dimen>
+    <dimen name="placeholder_item_height">32dp</dimen>
+    <dimen name="error_text_size">24sp</dimen>
+    <dimen name="height_100dp">100dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="radius_11dp">11dp</dimen>
+    <dimen name="elevation_5dp">5dp</dimen>
+    <dimen name="width_120dp">120dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="size_17sp">17sp</dimen>
+    <dimen name="height_48dp">48dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="padding_48dp">40dp</dimen>
+    <dimen name="radius_15dp">15dp</dimen>
+    <dimen name="padding_17dp">17dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+</resources>
